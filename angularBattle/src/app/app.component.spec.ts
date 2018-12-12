@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angularBattle'`, () => {
+  it(`should have as title 'Tomas\' Battle.net info'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angularBattle');
+    expect(app.title).toEqual('Tomas\' Battle.net info');
   });
 
   it('should render title in a h1 tag', () => {
